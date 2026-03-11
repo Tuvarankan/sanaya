@@ -1,0 +1,44 @@
+body {
+	background-color: #f5f5dc ;
+}
+
+h1 {
+	text-align: center ;
+	font-family: 'Great Vibes', cursive ;
+	font-size : 50px ;
+	}
+
+
+.CNC {
+	left : 0;
+}
+
+.colliernoeudceltique {
+	display: inline-block; 
+    margin:  10px; 
+    text-align: center ;
+
+p {
+	font-size:20px ;
+}
+}
+
+
+
+.colliernoeudceltique img {
+	width: 300px; 
+    height: 300px ;
+    border: 1px solid black; 
+    border-radius: 5px; 
+}
+
+
+
+
+.description {
+	position: absolute ;
+	top: 35% ;
+	left: 40% ;
+	font-size : 20px ;
+	
+}

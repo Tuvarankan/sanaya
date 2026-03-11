@@ -1,0 +1,34 @@
+body { 
+	background-color : #f5f5dc ;
+}
+
+h1 {
+	text-align: center ;
+	font-family: 'Great Vibes', cursive ;
+	font-size : 50px ;
+	}
+	
+.lien-contenu {
+	margin-left : 300px;	
+}
+
+.CategoriesBijoux {
+	display: inline-block; 
+    margin:  10px; 
+    text-align: center ;
+}
+
+.CategoriesBijoux img {
+    width: 200px; 
+    height: 200px ;
+    border: 1px solid black; 
+    border-radius: 5px; 
+}
+
+
+
+
+
+
+
+

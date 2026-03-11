@@ -1,0 +1,42 @@
+body {
+	background-color: #f5f5dc ;
+}
+
+
+
+
+
+
+h1 {
+	text-align: center ;
+	font-family: 'Great Vibes', cursive ;
+	font-size : 50px ;
+	}
+
+
+.image-contenu {
+    left: 0;
+    
+}
+
+
+.collier {
+    display: inline-block; 
+    margin:  10px; 
+    text-align: center ;
+}
+
+.collier img {
+    width: 150px; 
+    height: 150px ;
+    border: 1px solid black; 
+    border-radius: 5px; 
+}
+
+.collier p {
+    font-weight: bold;
+    margin: 5px 0; 
+}
+
+
+
