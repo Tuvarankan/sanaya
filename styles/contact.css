@@ -1,12 +1,85 @@
-body {
-	background-color: #f5f5dc ;
+/* ============================================
+   SANAYA — Contact
+   ============================================ */
+
+.contact-section {
+    padding: 80px 60px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-h1, h2 {
-	text-align: center ;
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 50px;
 }
 
-p {
-	text-align: center ;
-	font-size: 20px ;
+.contact-card {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    padding: 40px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+}
+
+.contact-icon {
+    font-size: 1.8rem;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-card h3 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+
+.contact-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.contact-card a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-card a:hover {
+    color: var(--gold-dark);
+    text-decoration: underline;
+}
+
+.contact-horaires {
+    margin-top: 60px;
+    text-align: center;
+    padding: 40px;
+    background-color: var(--bg-alt);
+    border-top: 2px solid var(--gold);
+}
+
+.contact-horaires p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.contact-horaires strong {
+    color: var(--dark);
+    display: block;
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
 }

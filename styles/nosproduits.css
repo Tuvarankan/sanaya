@@ -1,34 +1,66 @@
-body { 
-	background-color : #f5f5dc ;
+/* ============================================
+   SANAYA — Nos produits
+   ============================================ */
+
+.categories-section {
+    padding: 80px 60px;
 }
 
-h1 {
-	text-align: center ;
-	font-family: 'Great Vibes', cursive ;
-	font-size : 50px ;
-	}
-	
-.lien-contenu {
-	margin-left : 300px;	
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.CategoriesBijoux {
-	display: inline-block; 
-    margin:  10px; 
-    text-align: center ;
+.categorie-card {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 3 / 4;
+    display: block;
+    text-decoration: none;
 }
 
-.CategoriesBijoux img {
-    width: 200px; 
-    height: 200px ;
-    border: 1px solid black; 
-    border-radius: 5px; 
+.categorie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
 }
 
+.categorie-card:hover img {
+    transform: scale(1.08);
+}
 
+.categorie-card .card-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(28,28,28,0.85));
+    padding: 40px 24px 24px;
+    color: #ffffff;
+    text-align: center;
+    transition: background 0.3s;
+}
 
+.categorie-card:hover .card-label {
+    background: linear-gradient(transparent, rgba(28,28,28,0.95));
+}
 
+.categorie-card .card-label h3 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
 
-
-
-
+.categorie-card .card-label span {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,167 @@
+/* ============================================
+   SANAYA — Page produit détail
+   ============================================ */
+
+.produit-section {
+    padding: 80px 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.produit-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: start;
+}
+
+.produit-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.produit-img-wrapper img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border: 1px solid var(--border);
+}
+
+.prix-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--gold);
+    color: var(--dark);
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+
+.produit-info h2 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.produit-info .categorie-tag {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 30px;
+    display: block;
+}
+
+.fiche-descriptive {
+    background-color: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+    padding: 28px 32px;
+    margin-bottom: 28px;
+}
+
+.fiche-descriptive h4 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--dark);
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.fiche-descriptive ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fiche-descriptive ul li {
+    font-size: 0.88rem;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fiche-descriptive ul li::before {
+    content: '—';
+    color: var(--gold);
+}
+
+/* ---- AVIS ---- */
+.avis-section {
+    padding: 50px 60px 80px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid var(--border);
+}
+
+.avis-section h3 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.avis-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.avis-card {
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    padding: 28px;
+}
+
+.avis-card h4 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 4px;
+}
+
+.avis-card .etoiles {
+    color: var(--gold);
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.avis-card p {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+/* ---- RETOUR ---- */
+.retour-lien {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: color 0.3s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.retour-lien:hover {
+    color: var(--gold);
+}

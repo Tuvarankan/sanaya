@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-	<head>
-		<link rel="stylesheet" type="text/css" href="../styles/nosproduits.css" media="screen" /> 
-		<meta charset="utf-8">
-		<title>Nos bijoux</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos produits — Sanaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/shared.css">
+    <link rel="stylesheet" href="../styles/nosproduits.css">
+    <!-- SEO -->
+    <meta name="description" content="Découvrez tous les bijoux Sanaya : colliers, bracelets et bagues. Qualité et élégance à prix accessibles. Livraison rapide en France.">
+    <meta name="keywords" content="colliers bijoux, bracelets femme, bagues, boutique bijoux en ligne, Sanaya">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tuvarankan.github.io/sanaya/vues/nosproduits.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sanaya">
+    <meta property="og:title" content="Nos produits — Sanaya">
+    <meta property="og:description" content="Colliers, bracelets et bagues. Découvrez toute la collection Sanaya.">
+    <meta property="og:url" content="https://tuvarankan.github.io/sanaya/vues/nosproduits.html">
+    <meta property="og:image" content="https://tuvarankan.github.io/sanaya/images/collierNC.jpeg">
+    <meta property="og:locale" content="fr_FR">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Nos produits — Sanaya",
+      "description": "Colliers, bracelets et bagues disponibles sur Sanaya.",
+      "url": "https://tuvarankan.github.io/sanaya/vues/nosproduits.html",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://tuvarankan.github.io/sanaya/"},
+          {"@type": "ListItem", "position": 2, "name": "Nos produits"}
+        ]
+      }
+    }
+    </script>
+</head>
 
-	</head>
+<body>
 
-	<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="../index.html" class="brand">Sanaya</a>
+            <nav>
+                <ul>
+                    <li><a href="nosproduits.html" class="active">Nos produits</a></li>
+                    <li><a href="gravure.html">Gravure</a></li>
+                    <li><a href="paiementetlivraison.html">Livraison</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-		<h1>Jewels for All</h1>	
-		<br>
-		
-		<nav>
-			
-		 <div class="lien-contenu">
-			 
-		   <div class ="CategoriesBijoux">
-			<img src ="../images/collierNC.jpeg">
-			<a href="CategoriesColliers.html"><br>Les colliers</a>
-		   </div>
-		   
-		   <div class ="CategoriesBijoux">
-			<img src = "../images/BraceletCD.jpeg">
-			<a href="CategoriesBracelets.html"><br>Les bracelets</a>
-		   </div>
-		   
-		   <div class ="CategoriesBijoux">
-			<img src ="../images/bagueEN.jpeg">
-			<a href="CategoriesBagues.html"><br>Les bagues</a>
-		   </div>
-		</div>	
-			
-			
-			
-			
-		</nav>
-		
-	</body>
-	
+    <!-- BANNIÈRE -->
+    <div class="page-hero">
+        <p class="section-label">Boutique</p>
+        <h1>Nos Produits</h1>
+    </div>
+
+    <!-- CATÉGORIES -->
+    <section class="categories-section">
+        <div class="section-header">
+            <p class="section-label">Collections</p>
+            <h2>Choisissez votre catégorie</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="categories-grid">
+            <a href="CategoriesColliers.html" class="categorie-card">
+                <img src="../images/collierNC.jpeg" alt="Les colliers">
+                <div class="card-label">
+                    <h3>Colliers</h3>
+                    <span>Découvrir</span>
+                </div>
+            </a>
+
+            <a href="CategoriesBracelets.html" class="categorie-card">
+                <img src="../images/BraceletCD.jpeg" alt="Les bracelets">
+                <div class="card-label">
+                    <h3>Bracelets</h3>
+                    <span>Découvrir</span>
+                </div>
+            </a>
+
+            <a href="CategoriesBagues.html" class="categorie-card">
+                <img src="../images/bagueEN.jpeg" alt="Les bagues">
+                <div class="card-label">
+                    <h3>Bagues</h3>
+                    <span>Découvrir</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="../index.html" class="brand-name">Sanaya</a>
+                <p>Bijoux &amp; Accessoires</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="nosproduits.html">Nos produits</a>
+                <a href="gravure.html">Gravure</a>
+                <a href="paiementetlivraison.html">Paiement &amp; Livraison</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Nous contacter</h4>
+                <p>contact@jewelsforall.fr</p>
+                <p>Lun–Ven, 9h30–17h30</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sanaya — Tous droits réservés</p>
+            <div class="footer-legal-links">
+                <a href="mentionslegales.html">Mentions légales</a>
+                <span>·</span>
+                <a href="confidentialite.html">Confidentialité</a>
+                <span>·</span>
+                <a href="cgv.html">CGV</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
 </html>

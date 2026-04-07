@@ -1,6 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Pages principales -->
   <url>
     <loc>https://tuvarankan.github.io/sanaya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/nosproduits.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/gravure.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/paiementetlivraison.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Catégories -->
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/CategoriesColliers.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/CategoriesBracelets.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/CategoriesBagues.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Produits — Colliers -->
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/NoeudCeltique.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/Ombresdargent.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/OrCeleste.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Produits — Bracelets -->
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/ArgentGrave.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/FusionDoree.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/BraceletCha%C3%AEneRoyale.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/Cha%C3%AEneDoree.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Produits — Bagues -->
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/EclipseNoire.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/OrRoyal.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pages légales -->
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/mentionslegales.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/confidentialite.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tuvarankan.github.io/sanaya/vues/cgv.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

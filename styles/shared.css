@@ -1,0 +1,272 @@
+/* ============================================
+   SANAYA — Styles partagés
+   ============================================ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gold: #c8a96e;
+    --gold-dark: #a8843e;
+    --dark: #1c1c1c;
+    --bg: #faf9f7;
+    --bg-alt: #f3efe9;
+    --text: #333333;
+    --text-muted: #888888;
+    --border: #e8e0d5;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/* ---- HEADER ---- */
+.site-header {
+    background-color: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 60px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.site-header .brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2rem;
+    color: var(--gold);
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+
+.site-header nav ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.site-header nav ul li a:hover,
+.site-header nav ul li a.active {
+    color: var(--gold);
+}
+
+/* ---- PAGE HERO (bannière intérieure) ---- */
+.page-hero {
+    background-color: var(--dark);
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: var(--white);
+    letter-spacing: 2px;
+}
+
+.page-hero p {
+    font-size: 0.75rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+}
+
+/* ---- BOUTONS ---- */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--gold);
+    color: var(--dark);
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: var(--gold-dark);
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-outline:hover {
+    background-color: var(--gold);
+    color: var(--dark);
+}
+
+/* ---- UTILITAIRES ---- */
+.section-label {
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.divider {
+    width: 50px;
+    height: 1px;
+    background-color: var(--gold);
+    margin: 20px auto 0;
+}
+
+/* ---- FOOTER ---- */
+.site-footer {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 60px 60px 0;
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-brand .brand-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: var(--gold);
+    font-weight: 400;
+    margin-bottom: 4px;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-brand p {
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links h4 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.footer-links a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 0.82rem;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--gold);
+}
+
+.footer-contact h4 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.footer-contact p {
+    color: #aaaaaa;
+    font-size: 0.82rem;
+    margin-bottom: 6px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    color: #555;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-legal-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-legal-links a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-legal-links a:hover {
+    color: var(--gold);
+}
+
+.footer-legal-links span {
+    color: #3a3a3a;
+}

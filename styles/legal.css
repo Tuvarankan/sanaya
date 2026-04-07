@@ -1,0 +1,94 @@
+/* ============================================
+   SANAYA — Pages légales
+   ============================================ */
+
+.legal-section {
+    padding: 70px 60px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.legal-section h2 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--dark);
+    margin: 48px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    letter-spacing: 1px;
+}
+
+.legal-section h2:first-of-type {
+    margin-top: 0;
+}
+
+.legal-section h3 {
+    font-family: 'Cormorant Garant', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin: 26px 0 10px;
+}
+
+.legal-section p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.9;
+    margin-bottom: 14px;
+}
+
+.legal-section ul {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.9;
+    margin: 10px 0 16px 20px;
+}
+
+.legal-section ul li {
+    margin-bottom: 6px;
+}
+
+.legal-section a {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.legal-section a:hover {
+    text-decoration: underline;
+}
+
+.legal-update {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 40px;
+}
+
+.legal-nav {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border);
+}
+
+.legal-nav a {
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+}
+
+.legal-nav a:hover,
+.legal-nav a.active {
+    border-color: var(--gold);
+    color: var(--gold);
+}

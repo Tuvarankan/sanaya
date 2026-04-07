@@ -1,64 +1,203 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-	<head>
-		<title>Sanaya - Boutique en ligne de bijoux et accessoires</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanaya — Bijoux &amp; Accessoires</title>
+    <meta name="description" content="Sanaya est une boutique en ligne spécialisée dans les bijoux et accessoires tendance. Livraison rapide et produits de qualité.">
+    <meta name="author" content="Tuvarankan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;1,400&family=Great+Vibes&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/shared.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- SEO -->
+    <meta name="description" content="Sanaya, boutique en ligne de bijoux et accessoires. Colliers, bracelets et bagues de qualité. Gravure personnalisée. Livraison express en Île-de-France.">
+    <meta name="keywords" content="bijoux, collier, bracelet, bague, gravure, bijoux en ligne, boutique bijoux, Histoire d'Or, Sanaya">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tuvarankan.github.io/sanaya/">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sanaya">
+    <meta property="og:title" content="Sanaya — Bijoux & Accessoires">
+    <meta property="og:description" content="Boutique en ligne de bijoux et accessoires. Colliers, bracelets, bagues. Gravure personnalisée et livraison express.">
+    <meta property="og:url" content="https://tuvarankan.github.io/sanaya/">
+    <meta property="og:image" content="https://tuvarankan.github.io/sanaya/images/collierNC.jpeg">
+    <meta property="og:locale" content="fr_FR">
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Sanaya",
+          "url": "https://tuvarankan.github.io/sanaya/",
+          "description": "Boutique en ligne de bijoux et accessoires",
+          "inLanguage": "fr"
+        },
+        {
+          "@type": "Organization",
+          "name": "Sanaya",
+          "url": "https://tuvarankan.github.io/sanaya/",
+          "email": "contact@jewelsforall.fr",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "14 rue des Artisans",
+            "addressLocality": "Paris",
+            "postalCode": "75011",
+            "addressCountry": "FR"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
 
-        <meta name="description" content="Sanaya est une boutique en ligne spécialisée dans les bijoux et accessoires tendance. Livraison rapide et produits de qualité.">
+<body>
 
-        <meta name="author" content="Tuvarankan">
-		
-		<link rel="stylesheet" type="text/css" href="styles/index.css" media="screen" />
-		<meta charset="utf-8">
-		<title>Jewels for All</title>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="brand">Sanaya</a>
+            <nav>
+                <ul>
+                    <li><a href="vues/nosproduits.html">Nos produits</a></li>
+                    <li><a href="vues/gravure.html">Gravure</a></li>
+                    <li><a href="vues/paiementetlivraison.html">Livraison</a></li>
+                    <li><a href="vues/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-	</head>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-sub">Collection Printemps 2025</p>
+            <h2>Des bijoux qui racontent<br><em>votre histoire</em></h2>
+            <a href="vues/nosproduits.html" class="btn-primary">Découvrir la boutique</a>
+        </div>
+    </section>
 
-	<body>
-		
-		<h1>Jewels for All</h1>
-		
-		<nav>
-			<ul>
-				<li><a href="vues/nosproduits.html">Nos produits</a></li>
-				<li><a href="vues/gravure.html">Gravure</a></li>
-				<li><a href="vues/paiementetlivraison.html">Paiement et Livraison</a></li>
-				<li><a href="vues/contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		
-		<div class="meillventes">
-		   <h2>Les meilleures ventes</h2>
-		   <h3>Les colliers</h3>
-		   
-		 <div class="image-contenu">
-			 
-		  <div class="collier">
-		   <img src="images/collierNC.jpeg" alt ="collier Noeud Celtique">
-		   <p><strong>Noeud Celtique</strong></p>
-		  </div>
-		   
-		 <div class="collier">
-		   <img src="images/collierOA.jpeg" alt="collier Ombres d'Argent">
-		   <p><strong>Ombres d'Argent</strong></p>
-		 </div>
-		   
-		 <div class="collier">
-		   <img src="images/collierOC.jpeg" alt ="collier Or célesre">
-		   <p><strong>Or Céleste</strong></p>
-		 </div>
-		</div> 
-		 </div>
-		 
-		 <br>
-		 <br>
-		 
-		 <div>
-			 <h3>Notre service de gravure unique !</h3>
-			 <p>Transformer vos colliers et autres bijoux en souvenirs en y ajoutant des noms, des dates ou des messages spéciaux</p>
-		 </div>
-		   
-		
-	</body>
-	
-</html>    
+    <!-- MEILLEURES VENTES -->
+    <section class="meillventes">
+        <div class="section-header">
+            <p class="section-label">Sélection</p>
+            <h2>Les Meilleures Ventes</h2>
+            <div class="divider"></div>
+        </div>
+
+        <h3>Colliers</h3>
+
+        <div class="produits-grid">
+            <div class="produit-card">
+                <div class="card-img-wrapper">
+                    <img src="images/collierNC.jpeg" alt="Collier Noeud Celtique">
+                    <div class="card-overlay">
+                        <a href="vues/NoeudCeltique.html" class="btn-card">Voir le produit</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <p class="card-name">Noeud Celtique</p>
+                    <p class="card-category">Collier</p>
+                </div>
+            </div>
+
+            <div class="produit-card">
+                <div class="card-img-wrapper">
+                    <img src="images/collierOA.jpeg" alt="Collier Ombres d'Argent">
+                    <div class="card-overlay">
+                        <a href="vues/Ombresdargent.html" class="btn-card">Voir le produit</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <p class="card-name">Ombres d'Argent</p>
+                    <p class="card-category">Collier</p>
+                </div>
+            </div>
+
+            <div class="produit-card">
+                <div class="card-img-wrapper">
+                    <img src="images/collierOC.jpeg" alt="Collier Or Céleste">
+                    <div class="card-overlay">
+                        <a href="vues/OrCeleste.html" class="btn-card">Voir le produit</a>
+                    </div>
+                </div>
+                <div class="card-info">
+                    <p class="card-name">Or Céleste</p>
+                    <p class="card-category">Collier</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="voir-plus">
+            <a href="vues/nosproduits.html" class="btn-outline">Voir tous les produits</a>
+        </div>
+    </section>
+
+    <!-- BANDEAU SERVICES -->
+    <section class="services">
+        <div class="service-item">
+            <span class="service-icon">◇</span>
+            <h4>Livraison Express</h4>
+            <p>En Île-de-France dès le jour même</p>
+        </div>
+        <div class="service-item">
+            <span class="service-icon">◇</span>
+            <h4>Paiement Sécurisé</h4>
+            <p>CB, PayPal et paiement en ligne</p>
+        </div>
+        <div class="service-item">
+            <span class="service-icon">◇</span>
+            <h4>Gravure sur Mesure</h4>
+            <p>Personnalisez vos bijoux</p>
+        </div>
+    </section>
+
+    <!-- CTA GRAVURE -->
+    <section class="gravure-cta">
+        <div class="gravure-content">
+            <p class="section-label">Service exclusif</p>
+            <h2>Gravure Personnalisée</h2>
+            <p>Transformez vos bijoux en souvenirs inoubliables.<br>Noms, dates, messages — chaque pièce devient unique.</p>
+            <a href="vues/gravure.html" class="btn-primary">En savoir plus</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="brand-name">Sanaya</a>
+                <p>Bijoux &amp; Accessoires</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="vues/nosproduits.html">Nos produits</a>
+                <a href="vues/gravure.html">Gravure</a>
+                <a href="vues/paiementetlivraison.html">Paiement &amp; Livraison</a>
+                <a href="vues/contact.html">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Nous contacter</h4>
+                <p>contact@jewelsforall.fr</p>
+                <p>Lun–Ven, 9h30–17h30</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sanaya — Tous droits réservés</p>
+            <div class="footer-legal-links">
+                <a href="vues/mentionslegales.html">Mentions légales</a>
+                <span>·</span>
+                <a href="vues/confidentialite.html">Confidentialité</a>
+                <span>·</span>
+                <a href="vues/cgv.html">CGV</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
